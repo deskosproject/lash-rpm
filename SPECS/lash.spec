@@ -3,7 +3,7 @@
 Summary:      LASH Audio Session Handler
 Name:         lash
 Version:      0.5.4
-Release:      18%{?dist}
+Release:      19%{?dist}
 License:      GPLv2+
 Group:        System Environment/Libraries
 URL:          http://www.nongnu.org/lash/
@@ -153,6 +153,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %{python_sitearch}/lash.py*
 
 %changelog
+* Mon May 16 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.5.4-19
+- Rebuilt for DeskOS
+
 * Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5.4-18
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
 
